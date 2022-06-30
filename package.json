@@ -1,0 +1,19 @@
+{
+  "name": "manage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/input.css -o public/output.css",
+    "watch": "postcss src/input.css -o public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.1.4"
+  }
+}
